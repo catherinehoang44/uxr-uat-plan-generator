@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, TextField, Button, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://git.heroku.com/uatgen-mvp-backend.git';
 
 function App() {
   const [workstreams, setWorkstreams] = useState('');
